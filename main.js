@@ -50,7 +50,7 @@ fetch("data/points.geojson")
   });
 
 // Lines
-fetch("data/lines.geojson")
+fetch("data/data/lines.geojson")
   .then((response) => response.json())
   .then((data) => {
     L.geoJSON(data, {
@@ -62,7 +62,7 @@ fetch("data/lines.geojson")
   });
 
 // Polygons
-fetch("data/polygons.geojson")
+fetch("data/data/data/polygons.geojson")
   .then((response) => response.json())
   .then((data) => {
     L.geoJSON(data, {
